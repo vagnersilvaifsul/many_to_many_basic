@@ -10,9 +10,6 @@ import javax.persistence.ManyToMany;
 import java.util.Set;
 
 @Entity
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class Course {
     @Id
     Long id;
